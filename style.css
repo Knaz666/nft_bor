@@ -1,0 +1,423 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.wraper {
+  position: relative;
+  background: url(img/bloc_one/fon_bloc_one.png) no-repeat;
+  width: 1440px;
+  height: 800px;
+  color: #fff;
+  padding: 60px 130px 0px 170px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.row_nft {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.row_nft span {
+  background: url(img/bloc_one/Ellipse\ 1.png)left no-repeat;
+  padding: 10px 10px 10px 60px;
+}
+.main_list_one {
+  display: flex;
+}
+.main_list_one a {
+  color: #fff;
+  font-weight: 300;
+}
+.main_list_one a:hover {
+  text-decoration: underline 1px;
+}
+.main_list_one li {
+  margin: 0 45px 0 0;
+  font-weight: 100;
+}
+.header_list_two a {
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+  border-radius: 10px;
+}
+.header_list_two a:hover {
+  text-decoration: underline;
+}
+.wraper_title {
+  width: 500px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 1px;
+  padding: 130px 0 50px 0;
+}
+.wraper_text {
+  width: 410px;
+  line-height: 40px;
+  font-weight: 100;
+}
+.header_open {
+  margin: 50px 0 0 0;
+}
+.header_open a{
+  margin: 0 20px 0 0;
+}
+.header_open a:hover {
+  text-decoration: underline;
+}
+.header_open a:nth-child(1) {
+  padding: 10px 60px;
+  color: #fff;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  border-radius: 10px;
+  font-weight: 700;
+}
+.header_open a:nth-child(2) {
+  padding: 10px 60px;
+  color: #fff;
+  border: 1px solid #FF8E1E;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.current_price {
+  position: absolute;
+  width: 250px;
+  height: 190px;
+  top: 520px;
+  left: 1015px;
+  padding: 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+  box-shadow: -46px -61px 36px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.current__text {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+.current__list_one {
+  padding: 0 0 40px 0;
+}
+.current__list_one span {
+  font-size: 24px;
+  font-weight: 700;
+  background: url(img/bloc_one/Vector.png)left no-repeat;
+  padding: 0 15px 0px 30px;
+}
+.current__list_two {
+  padding: 0 0 0 5px;
+}
+.current__list_two span {
+  font-size: 16px;
+  font-weight: 700;
+  background: url(img/bloc_one/Ellipse\ 2.png)left no-repeat;
+  padding: 13px 13px 13px 55px;
+}
+
+ /* Блок второй */
+
+.container {
+  width: 1440px;
+  height: 850px;
+  background-color: #F7F7F7;
+  color: #000;
+}
+.content__title {
+  width: 480px;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  padding-top: 80px;
+}
+.content__text {
+  width: 750px;
+  color: #232222;
+  padding: 30px 0 40px 0;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+}
+.content_photo {
+  display: flex;
+  justify-content: center;
+  padding: 0 70px;
+}
+.content_photo p {
+  display: flex;
+  justify-content: center;
+  padding: 41px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.shar_one {
+  height: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.content_photo div:nth-child(1),
+.content_photo div:nth-child(3) {
+  margin: 0 20px 0 0;
+}
+.content_photo div:nth-child(2) {
+  margin: 0 20px 0 0;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+  color: #fff;
+}
+
+/* Блок три */
+
+.col {
+  width: 750px;
+  padding-top: 35px;
+}
+.section_photo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  margin: 0 0 20px 0;
+}
+.image_one {
+  height: 430px;
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.1);
+}
+.one__image_none p:nth-child(1){
+  font-size: 18px;
+  font-weight: 700;
+  padding: 30px 0 25px 30px;
+}
+.one__image_none p:nth-child(2) {
+  padding: 0 0 20px 30px;
+}
+.one__image_none p:nth-child(3) {
+  padding: 0 0 0 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.spen_one span {
+  color: #FF8E1E;
+  font-weight: 700;
+  background: url(img/bloc_three/Vector.png)left no-repeat;
+  padding: 0 0 0 25px;
+}
+.spen_two {
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  padding: none;
+}
+.spen_two img {
+  margin: 0 20px 0 0;
+}
+
+/* Блок четвертый */
+
+.block_foure {
+  width: 1440px;
+  height: 600px;
+  margin-top: 110px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.col_title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.col_text {
+  width: 770px;
+  color: #232222;
+  margin-bottom: 30px;
+}
+.col__two {
+  margin-top: 15px;
+}
+.col__two a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+  border-radius: 10px;
+}
+.col__two a:hover {
+  text-decoration: underline;
+}
+.form_group {
+  display: flex;
+  justify-content: space-between;
+}
+.icom__one {
+  position: relative;
+}
+.icom__one p {
+  position: absolute;
+  padding: 20px 35px;
+  width: 270px;
+  height: 100px;
+  top: 352px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  background-color: #F4F4F4;
+  display: flex;
+  align-items: center;
+}
+
+/* Блок пятый */
+.block__five {
+  padding: 0 70px 50px 70px;
+}
+.brows {
+  width: 600px;
+}
+.holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+/* Блок шестой */
+
+.inner {
+  height: 200px;
+  padding: 0 70px;
+  background-color: #F4F4F4;
+}
+.child_iner {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Блок седьмой */
+
+.block__seven {
+  background: url(img/bloc_six/fon.png);
+  height: 600px;
+}
+.child_seven {
+  padding: 280px 70px 70px 70px;
+}
+.seven__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.seven__text {
+  width: 460px;
+  color: #232222;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+}
+.btn_int {
+  position: relative;
+}
+.btn_int input {
+  width: 490px;
+  height: 44px;
+  border-radius: 10px;
+  padding: 0 0 0 30px;
+}
+.btn_int a {
+  position: absolute;
+  padding: 12px 30px;
+  border-radius: 10px;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  color: #fff;
+  font-weight: 700;
+  right: 800px;
+}
+.btn_int a:hover {
+  text-decoration: underline;
+}
+
+/* Блок восьмой */
+
+.block__eight {
+  height: 1000px;
+  padding: 150px 120px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.search_title {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.search_title span {
+  background: url(img/bloc_one/Ellipse\ 1.png)left no-repeat;
+  padding: 10px 10px 10px 60px;
+}
+.search__text {
+  color: #232222;
+  width: 370px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+}
+.column__title {
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.paragraph li {
+  margin-bottom: 40px;
+}
+.paragraph a {
+  color: #232222;
+}
+.paragraph a:hover {
+  text-decoration: underline;
+}
