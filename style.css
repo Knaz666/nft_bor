@@ -39,6 +39,8 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 body {
   font-family: Montserrat;
   font-size: 20px;
+  width: 1440px;
+  height: 5880px;
 }
 .wraper {
   position: relative;
